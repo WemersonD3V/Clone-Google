@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: end;
+    padding:2px 20px;
+    height: 60px;
+
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+
+    list-style: none;
+}
+header nav ul li a{
+    margin-right: 18px;
+    text-decoration: none;
+    color:#797C81;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+.menu_points{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 15px; 
+    border-radius: 100%;  
+    cursor: pointer;
+   
+    
+
+}
+.menu_points:hover{
+    background-color: #F0F0F0;
+}
+
+
+.fazerLogin{
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+    color: #fff;
+    background-color:#1a73e8 ;
+    padding: 9px 23px;
+    font-size: 17px;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+
+}
+.fazerLogin:hover{
+    background-color: #1B66C9;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+.logo_center{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+.searchButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+   
+  
+
+}
+.barra_search:hover{
+
+   box-shadow: 0px 0px 5px #00000020; 
+   outline: none;
+}
+.barra_search{
+ 
+    width: 582px;
+    height: 55px;
+    padding: 10px 19px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid #dddcdc ;
+    border-radius:50px ;
+}
+.barStart, .barEnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barEnd{
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    color: #9aa0a6;
+    margin-right: 15px;
+}
+
+#isearch{
+    border:none;
+    width: 330px;
+    height: 30px;
+    font-size: 18px;
+}
+#isearch:focus{
+    border: none;
+    outline: none;
+}
+.searchVoice{
+    margin-right: 10px;
+}
+
+.buttons button{
+    width: 151px;
+    height: 40px;
+    padding: 0px 16px;
+    font-size: 14px;
+    margin: 0px 4px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 2px;
+   
+}
+.buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+footer{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+.region{
+    border-bottom:1px solid #dddcdc ;
+    padding:15px 20px;
+    font-size: 15px;
+    color: #202124;
+}
+.aboutMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+.linksMore , .linksMore1{
+    min-width: 530px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  
+
+}
+.aboutMore a {
+    text-align: center;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 15px;
+    color: #202124;
+    
+
+}
+.aboutMore a:hover{
+    text-decoration: underline;
+}
+
