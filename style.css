@@ -168,6 +168,7 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
+   
 }
 .region{
     border-bottom:1px solid #dddcdc ;
@@ -189,6 +190,7 @@ footer{
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 15px;
+    padding: 0px 15px;
   
 
 }
@@ -203,5 +205,18 @@ footer{
 }
 .aboutMore a:hover{
     text-decoration: underline;
+}
+
+@media (max-width:632px){
+   
+    .barra_search{
+ 
+        width: 358px;
+        height: 55px;
+
+    }
+    #isearch{
+        width: 180px;
+    }
 }
 
